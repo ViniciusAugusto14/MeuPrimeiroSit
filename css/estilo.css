@@ -1,7 +1,31 @@
 body{
-background-color:#F5F5DC ;
+background-color:#F5F5DC;
+}
+.img_topo{
+    width: 40%;
 }
 
+figure{
+    text-align: center;
+}
+
+.img_corpo{
+    width: 60%;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+font-size: 16px;
+text-align: justify;
+}
 
 
 
