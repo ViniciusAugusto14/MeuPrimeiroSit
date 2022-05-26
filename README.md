@@ -1,3 +1,3 @@
 # MeuPrimeiroSit
 MeuPrimeiroSit
-https://viniciusaugusto14.github.io/MeuPrimeiroSit/
+https://github.com/ViniciusAugusto14/MeuPrimeiroSit.git
