@@ -1,33 +1,39 @@
 html{
     scroll-behavior: smooth;
 }
+
 .menu{
     background-color: burlywood;
-    padding: 2%;
+    padding: 1%;
 }
+
 .itens_menu{
     text-align: center;
 }
+
 body{
 background-color:#F5F5DC;
 }
+
 h1{
     padding-top: 1%;
     font-size: 2em;
     padding-bottom: 1%;
-}
-.img_topo{
-    width: 40%;
-}
-
-.img_corpo{
-    width: 30%;
 }
 
 figure{
     text-align: center;
     padding-top: 1em;
     padding-bottom: 1em;
+}
+.img_topo{
+    width: 40%;
+    padding-top: 2%;
+}
+
+.img_corpo{
+    width: 50%;
+    padding-top: 2%;
 }
 
 .container{
@@ -37,31 +43,39 @@ figure{
 
 h1{
     text-align: center;
+    padding-bottom: 3%;
 }
 
 p{
 font-size: 16px;
 text-align: justify;
+line-height: 1.5;
+text-indent:15px;
 }
+
 .parag_letras > p {
 text-align: center;
 font-size: 20px;
 }
+
 .botao{
     width: 130px;
     height: 50px;
     background-color: blanchedalmond;
     color: bisque;
 }
+
 .botao p{
     padding-top: 9px;
 }
+
 footer p{
     background-color:#D2B48C;
     padding: 2%;  
     text-align: center;
     font-size: 20px;
 }
+
 .center{
     text-align: center;
     padding-top: 1em;
