@@ -47,10 +47,20 @@ h1{
 }
 
 p{
-font-size: 16px;
+font-size: 30px;
 text-align: justify;
 line-height: 1.5;
 text-indent:15px;
+}
+.direita{
+    float: left;
+    width: 50%;
+    padding-right: 2%;
+}
+.esquerda{
+    float: right;
+    width: 50%;
+    padding-left: 2%;
 }
 
 .parag_letras > p {
