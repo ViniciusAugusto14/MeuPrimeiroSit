@@ -6,11 +6,13 @@ html{
     background-color: burlywood;
     padding: 1%;
 }
-
 .itens_menu{
     text-align: center;
+   line-height: 25px;
 }
-
+.itens_menu a:hover{
+    background-color: #4F4F4F;
+}
 body{
 background-color:#F5F5DC;
 }
@@ -71,12 +73,12 @@ font-size: 20px;
 .botao{
     width: 130px;
     height: 50px;
-    background-color: blanchedalmond;
     color: bisque;
+    background-color:#F5DEB3;
 }
 
 .botao p{
-    padding-top: 9px;
+    padding-top: 5px;
 }
 
 footer p{
@@ -91,6 +93,23 @@ footer p{
     padding-top: 1em;
     padding-bottom: 1em;
 }
+a:link {
+    color:antiquewhite;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(128, 98, 0);
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(255, 220, 105);
+    text-decoration: none;
+    background-color: #4F4F4F;
+  }
+  a:active {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+  }
 
 
 
