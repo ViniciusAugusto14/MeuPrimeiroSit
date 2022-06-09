@@ -29,7 +29,7 @@ figure{
     padding-bottom: 1em;
 }
 .img_topo{
-    width: 40%;
+    width:100%;
     padding-top: 2%;
 }
 
@@ -94,7 +94,7 @@ footer p{
     padding-bottom: 1em;
 }
 a:link {
-    color:antiquewhite;
+    color:rgb(180, 130, 64);
     text-decoration: none;
   }
   a:visited {
