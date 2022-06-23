@@ -110,6 +110,12 @@ a:link {
     color: rgb(255, 0, 0);
     text-decoration: none;
   }
-
+  table{
+     width: 100%;
+  }
+   th,td {
+    width: 50%;
+    border: 1px solid black;
+   }
 
 
