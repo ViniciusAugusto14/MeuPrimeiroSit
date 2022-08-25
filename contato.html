@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&family=PT+Serif&display=swap" rel="stylesheet"> 
+
 </head>
 <body>
     <header>
@@ -27,42 +30,61 @@
     </header>
     <div class="container">
      <section>
-        <div class="formulario">
-         <div class="form">
-               <div class="row">
-                   <div class="col-25">
-                     <label for="fname">Nome:</label><br>  
-                   </div>
+        <div class="form">
+            <form action="">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">Nome:</label><br>  
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="fname" placeholder="Digite seu nome"><br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Telefone:</label><br>
+                    </div>
+                    <div class="col-75">
+                        <input type="tel" id="lname" name="lname" placeholder="11 99999-9999">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="Email">Email:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="email" name="ename" placeholder="Digite seu email">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="#">Estado: </label> 
+                    </div>
+                    <div class="col-75">
+                        <select name="" id="">
+                            <option value="sp">SP</option>
+                            <option value="rj">RJ</option>
+                            <option value="ba">BA</option>
+                            <option value="mg">MG</option>
+                            <option value="ce">CE</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="#">Escreva sua Reclamação</label>  
+                        </div>
+                        <div class="col-75">
+                            <textarea name="#" id="#" cols="50" rows="10"></textarea>
+                        </div>
+                    </div>
+                 <div class="row">
                    <div class="col-75">
-                     <input type="text" id="fname" name="fname" placeholder="Digite seu nome"><br>
+                      <input type="submit" value="Submit">
                    </div>
-               </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="lname">Telefone:</label><br>
-                </div>
-                <div class="col-75">
-                    <input type="text" id="lname" name="lname" placeholder="11 99999-9999">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="Email">Email:</label>
-                </div>
-                <div class="col-75">
-                    <input type="email" name="ename" placeholder="Digite seu email">
-                </div>
-            </div>
-            <div class="row">
-               <div class="col-75">
-                 <input type="submit" value="Submit">
-               </div>
-            </div>
+                </div> 
+            </form>
         </div>
-            
-                
-
-        </section>
+     </section>
         <section>
 
         </section>
