@@ -46,12 +46,11 @@ figure{
     padding-bottom: 1em;
 }
 .img_topo{
-    width:40%;
-    padding-top: 2%;
+    width:100%;
 }
 
 .img_corpo{
-    width: 50%;
+    width: 100%;
     padding-top: 2%;
 }
 
@@ -196,7 +195,8 @@ a:link {
   }
 
   footer{
-      margin-top: 25%
+      margin-top: 10%
+
   }
   @media screen and (max-width: 600px) {
 
@@ -216,6 +216,7 @@ a:link {
 
     .banner{
         margin-top: 20%;
+
     }
     
    
