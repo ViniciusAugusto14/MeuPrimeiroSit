@@ -84,7 +84,9 @@ font-family: 'DynaPuff', cursive;
     width: 50%;
     padding-left: 2%;
 }
-
+.parag_letras{
+margin-top: 10%;
+}
 .parag_letras > p {
 text-align: center;
 font-size: 20px;
@@ -207,7 +209,8 @@ a:link {
     }
 
     .form{
-        background-color: rgba(9, 7, 6, 0.6);
+        background-color: burlywood;
+        margin-top: 40%;
     }
 
     .logo{
@@ -218,6 +221,13 @@ a:link {
         margin-top: 20%;
 
     }
+    .fixo{
+        background-color:burlywood ;
+    }
+    .parag_letras{
+        margin-top: 50%;
+    }
+    
     
    
     
